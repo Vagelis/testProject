@@ -10,7 +10,8 @@
 #import "dummyClass.h"
 
 @interface dummyViewController : UIViewController {
-    
+
+    NSString *testString;
 }
 
 @end
