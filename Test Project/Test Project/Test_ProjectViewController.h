@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface Test_ProjectViewController : UIViewController {
+
+NSString *string;
     
 }
 
