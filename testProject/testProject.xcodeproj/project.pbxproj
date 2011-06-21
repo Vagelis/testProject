@@ -18,6 +18,7 @@
 		2BC82E8513B1411B0006AD95 /* testProjectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BC82E8313B1411B0006AD95 /* testProjectViewController.xib */; };
 		2BC82E8E13B142430006AD95 /* dummyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC82E8C13B142420006AD95 /* dummyViewController.m */; };
 		2BC82E8F13B142430006AD95 /* dummyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BC82E8D13B142420006AD95 /* dummyViewController.xib */; };
+		2BC82E9313B143130006AD95 /* dummyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC82E9213B143130006AD95 /* dummyClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,8 @@
 		2BC82E8B13B142420006AD95 /* dummyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dummyViewController.h; sourceTree = "<group>"; };
 		2BC82E8C13B142420006AD95 /* dummyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dummyViewController.m; sourceTree = "<group>"; };
 		2BC82E8D13B142420006AD95 /* dummyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = dummyViewController.xib; sourceTree = "<group>"; };
+		2BC82E9113B143130006AD95 /* dummyClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dummyClass.h; sourceTree = "<group>"; };
+		2BC82E9213B143130006AD95 /* dummyClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dummyClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,8 @@
 				2BC82E8013B1411B0006AD95 /* testProjectViewController.h */,
 				2BC82E8113B1411B0006AD95 /* testProjectViewController.m */,
 				2BC82E8313B1411B0006AD95 /* testProjectViewController.xib */,
+				2BC82E9113B143130006AD95 /* dummyClass.h */,
+				2BC82E9213B143130006AD95 /* dummyClass.m */,
 				2BC82E9013B142490006AD95 /* Dummy */,
 				2BC82E7213B1411B0006AD95 /* Supporting Files */,
 			);
@@ -185,6 +190,7 @@
 				2BC82E7C13B1411B0006AD95 /* testProjectAppDelegate.m in Sources */,
 				2BC82E8213B1411B0006AD95 /* testProjectViewController.m in Sources */,
 				2BC82E8E13B142430006AD95 /* dummyViewController.m in Sources */,
+				2BC82E9313B143130006AD95 /* dummyClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

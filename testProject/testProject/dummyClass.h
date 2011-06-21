@@ -1,15 +1,15 @@
 //
-//  dummyViewController.h
+//  dummyClass.h
 //  testProject
 //
 //  Created by EYAGGELOS LIASKAS on 22/06/2011.
 //  Copyright 2011 Desquared. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-#import "dummyClass.h"
+#import <Foundation/Foundation.h>
 
-@interface dummyViewController : UIViewController {
+
+@interface dummyClass : NSObject {
     
 }
 
