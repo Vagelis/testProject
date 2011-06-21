@@ -11,6 +11,8 @@
 
 @implementation dummyViewController
 
+@synthesize testString;
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -22,6 +24,7 @@
 
 - (void)dealloc
 {
+    [testString release];
     [super dealloc];
 }
 
@@ -43,6 +46,7 @@
 
 - (void)viewDidUnload
 {
+    self.testString = nil;
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;

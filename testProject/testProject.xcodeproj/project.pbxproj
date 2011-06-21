@@ -93,8 +93,6 @@
 				2BC82E8013B1411B0006AD95 /* testProjectViewController.h */,
 				2BC82E8113B1411B0006AD95 /* testProjectViewController.m */,
 				2BC82E8313B1411B0006AD95 /* testProjectViewController.xib */,
-				2BC82E9113B143130006AD95 /* dummyClass.h */,
-				2BC82E9213B143130006AD95 /* dummyClass.m */,
 				2BC82E9013B142490006AD95 /* Dummy */,
 				2BC82E7213B1411B0006AD95 /* Supporting Files */,
 			);
@@ -115,6 +113,8 @@
 		2BC82E9013B142490006AD95 /* Dummy */ = {
 			isa = PBXGroup;
 			children = (
+				2BC82E9113B143130006AD95 /* dummyClass.h */,
+				2BC82E9213B143130006AD95 /* dummyClass.m */,
 				2BC82E8B13B142420006AD95 /* dummyViewController.h */,
 				2BC82E8C13B142420006AD95 /* dummyViewController.m */,
 				2BC82E8D13B142420006AD95 /* dummyViewController.xib */,

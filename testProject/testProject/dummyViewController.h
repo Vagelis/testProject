@@ -14,4 +14,6 @@
     NSString *testString;
 }
 
+@property (nonatomic, retain) NSString *testString;
+
 @end
