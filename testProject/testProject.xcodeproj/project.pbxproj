@@ -16,6 +16,8 @@
 		2BC82E7F13B1411B0006AD95 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BC82E7D13B1411B0006AD95 /* MainWindow.xib */; };
 		2BC82E8213B1411B0006AD95 /* testProjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC82E8113B1411B0006AD95 /* testProjectViewController.m */; };
 		2BC82E8513B1411B0006AD95 /* testProjectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BC82E8313B1411B0006AD95 /* testProjectViewController.xib */; };
+		2BC82E8E13B142430006AD95 /* dummyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC82E8C13B142420006AD95 /* dummyViewController.m */; };
+		2BC82E8F13B142430006AD95 /* dummyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BC82E8D13B142420006AD95 /* dummyViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,9 @@
 		2BC82E8013B1411B0006AD95 /* testProjectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testProjectViewController.h; sourceTree = "<group>"; };
 		2BC82E8113B1411B0006AD95 /* testProjectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testProjectViewController.m; sourceTree = "<group>"; };
 		2BC82E8413B1411B0006AD95 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/testProjectViewController.xib; sourceTree = "<group>"; };
+		2BC82E8B13B142420006AD95 /* dummyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dummyViewController.h; sourceTree = "<group>"; };
+		2BC82E8C13B142420006AD95 /* dummyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dummyViewController.m; sourceTree = "<group>"; };
+		2BC82E8D13B142420006AD95 /* dummyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = dummyViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +90,7 @@
 				2BC82E8013B1411B0006AD95 /* testProjectViewController.h */,
 				2BC82E8113B1411B0006AD95 /* testProjectViewController.m */,
 				2BC82E8313B1411B0006AD95 /* testProjectViewController.xib */,
+				2BC82E9013B142490006AD95 /* Dummy */,
 				2BC82E7213B1411B0006AD95 /* Supporting Files */,
 			);
 			path = testProject;
@@ -99,6 +105,16 @@
 				2BC82E7813B1411B0006AD95 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2BC82E9013B142490006AD95 /* Dummy */ = {
+			isa = PBXGroup;
+			children = (
+				2BC82E8B13B142420006AD95 /* dummyViewController.h */,
+				2BC82E8C13B142420006AD95 /* dummyViewController.m */,
+				2BC82E8D13B142420006AD95 /* dummyViewController.xib */,
+			);
+			name = Dummy;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +170,7 @@
 				2BC82E7613B1411B0006AD95 /* InfoPlist.strings in Resources */,
 				2BC82E7F13B1411B0006AD95 /* MainWindow.xib in Resources */,
 				2BC82E8513B1411B0006AD95 /* testProjectViewController.xib in Resources */,
+				2BC82E8F13B142430006AD95 /* dummyViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +184,7 @@
 				2BC82E7913B1411B0006AD95 /* main.m in Sources */,
 				2BC82E7C13B1411B0006AD95 /* testProjectAppDelegate.m in Sources */,
 				2BC82E8213B1411B0006AD95 /* testProjectViewController.m in Sources */,
+				2BC82E8E13B142430006AD95 /* dummyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
